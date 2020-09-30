@@ -1,7 +1,7 @@
+--trace-deprecation
 --require coffeescript/register
 --reporter spec
 --check-leaks
---growl
 --full-trace
 test/types/*.coffee
 test/generics/*.coffee

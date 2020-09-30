@@ -66,7 +66,7 @@ describe 'Utils.co', ->
         res = yield [ a, b, c ]
         assert.equal 3, res.length
         assert.include res[0], 'exports'
-        assert.include res[1], 'Apache'
+        assert.include res[1], 'LESSER'
         assert.include res[2], 'devDependencies'
         return
     it 'should noop with no args', ->
@@ -131,7 +131,7 @@ describe 'Utils.co', ->
         res = yield { a, b, c }
         assert.equal Object.keys(res).length, 3
         assert.include res.a, 'exports'
-        assert.include res.b, 'Apache'
+        assert.include res.b, 'LESSER'
         assert.include res.c, 'devDependencies'
         return
     it 'should noop with no args', ->
@@ -238,7 +238,7 @@ describe 'Utils.co', ->
         assert.equal res.length, 2
         assert.include res[0], 'exports'
         assert.equal res[1].length, 2
-        assert.include res[1][0], 'Apache'
+        assert.include res[1][0], 'LESSER'
         assert.include res[1][1], 'devDependencies'
         return
     it 'should aggregate objects within objects', ->
@@ -253,7 +253,7 @@ describe 'Utils.co', ->
             1: c
         }
         assert.include res[0], 'exports'
-        assert.include res[1][0], 'Apache'
+        assert.include res[1][0], 'LESSER'
         assert.include res[1][1], 'devDependencies'
         return
     return
