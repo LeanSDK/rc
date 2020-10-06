@@ -1,5 +1,5 @@
 {
-  "name": "RC",
+  "name": "@leansdk/rc",
   "description": "RC is library with advanced Class logic",
   "version": "3.1.0",
   "main": "dist/index.js",
@@ -14,12 +14,14 @@
       "name": "Evgeni Biryukov"
     }
   ],
-  "homepage": "https://github.com/LeanPack/rc#readme",
+  "homepage": "https://github.com/LeanSDK/rc#readme",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/LeanPack/rc.git"
+    "type": "git",
+    "url": "https://github.com/LeanSDK/rc.git"
   },
-  "engines" : { "node" : ">=6.10" },
+  "engines": {
+    "node": ">=6.10"
+  },
   "keywords": [
     "CoffeeScript",
     "class inheritance",
@@ -30,7 +32,9 @@
     "cpp style",
     "strong typing",
     "public private protected",
-    "statemachine", "FSM", "aasm",
+    "statemachine",
+    "FSM",
+    "aasm",
     "async via generators"
   ],
   "scripts": {
