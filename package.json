@@ -1,7 +1,7 @@
 {
   "name": "@leansdk/rc",
   "description": "RC is library with advanced Class logic",
-  "version": "3.1.2",
+  "version": "3.1.7",
   "main": "dist/index.js",
   "private": false,
   "license": "LGPL-3.0",
@@ -33,7 +33,7 @@
     "async via generators"
   ],
   "scripts": {
-    "prepublishOnly": "coffee --compile --output ./dist ./lib",
+    "build": "coffee --compile --output ./dist ./lib",
     "test": "mocha"
   },
   "config": {
@@ -58,26 +58,17 @@
   "devDependencies": {
     "chai": "3.5.0",
     "glob": "7.1.6",
-    "gulp": "3.9.1",
-    "gulp-coffee": "3.0.2",
-    "gulp-concat": "2.6.0",
-    "gulp-copy": "0.0.2",
-    "gulp-header": "1.8.8",
-    "gulp-symlink": "2.1.4",
-    "gulp-zip": "3.2.0",
     "i": "0.3.6",
     "jsonwebtoken": "8.5.1",
     "lodash": "4.17.20",
     "mocha": "5.0.0",
     "needle": "1.6.0",
-    "run-sequence": "1.2.2",
     "sinon": "1.17.7"
   },
   "bugs": {
     "url": "https://github.com/LeanSDK/rc/issues"
   },
   "directories": {
-    "dist": "dist",
     "lib": "lib",
     "test": "test"
   }

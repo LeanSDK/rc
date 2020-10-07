@@ -295,7 +295,7 @@ module.exports = (RC)->
         Reflect.defineProperty self, cpsExtensibleSymbol,
           enumerable: no
           configurable: yes
-          value: Symbol 'extensibleSymbol'
+          value: Symbol "extensibleSymbol|#{self.name}"
         self[cplExtensibles][self[cpsExtensibleSymbol]] = yes
         return
 
