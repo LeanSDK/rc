@@ -45,7 +45,7 @@
   },
   "peerDependencies": {
     "glob": "7.1.6",
-    "i": "0.3.6",
+    "i": "0.3.7",
     "lodash": "4.17.20",
     "needle": "1.6.0"
   },
@@ -58,7 +58,7 @@
   "devDependencies": {
     "chai": "3.5.0",
     "glob": "7.1.6",
-    "i": "0.3.6",
+    "i": "0.3.7",
     "jsonwebtoken": "8.5.1",
     "lodash": "4.17.20",
     "mocha": "5.0.0",
